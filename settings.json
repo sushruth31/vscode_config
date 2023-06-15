@@ -1,0 +1,116 @@
+{
+  /*****************************************************
+     Settings for built-in behavior + extensions
+  ******************************************************/
+  /* Visuals + layout
+  ----------------------------------------------------*/
+  "breadcrumbs.enabled": false,
+  "diffEditor.renderSideBySide": true,
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 23,
+  "editor.lineHeight": 30,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.matchBrackets": "never",
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": false,
+  "explorer.openEditors.visible": 0,
+  "scm.diffDecorationsGutterVisibility": "hover",
+  "scm.diffDecorations": "gutter",
+  "window.zoomLevel": 0,
+  "window.title": "${activeEditorMedium}",
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.visible": false,
+  /* Core behavior
+  ----------------------------------------------------*/
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.startupEditor": "none",
+  "git.enableSmartCommit": true,
+  "editor.tabCompletion": "onlySnippets",
+  // "editor.quickSuggestions": {
+  //   "other": false,
+  //   "comments": false,
+  //   "strings": false
+  // },
+  "search.exclude": {
+    "dist": true,
+    "static": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "keyboard.dispatch": "keyCode",
+  "git.confirmSync": false,
+  /* Formatting
+  ----------------------------------------------------*/
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html.format.enable": true,
+  "editor.formatOnSave": true,
+  "css.validate": false,
+  /* JavaScript
+  ----------------------------------------------------*/
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  /* Handlebars
+  ----------------------------------------------------*/
+  /* Emmet
+  ----------------------------------------------------*/
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  /*****************************************************
+  Settings for third-party extensions
+  ******************************************************/
+  /* Prettier
+  ----------------------------------------------------*/
+  "prettier.disableLanguages": [],
+  /* TailwindCSS
+  ----------------------------------------------------*/
+  "tailwindCSS.emmetCompletions": true,
+  /* Vim
+  ----------------------------------------------------*/
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["u"],
+      "after": [],
+      "commands": [
+        {
+          "command": "undo"
+        }
+      ]
+    },
+
+    {
+      "before": ["<C-r>"],
+      "after": [],
+      "commands": [
+        {
+          "command": "redo"
+        }
+      ]
+    }
+  ],
+  /* Sync
+  ----------------------------------------------------*/
+  "sync.gist": "381689dc8fb5ae466a6c8833e84bd612",
+  /* Other
+  ----------------------------------------------------*/
+  "eslint.alwaysShowStatus": true,
+  "els.codeLens.relatedFiles": false,
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.fontSize": 23,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.inlineSuggest.enabled": true,
+  "vim.enableNeovim": true,
+  "editor.cursorSurroundingLines": 10000,
+  "editor.lineNumbers": "relative",
+  "editor.suggest.showStatusBar": true,
+  "zenMode.hideStatusBar": false,
+  "workbench.colorTheme": "CodeSandbox Dark"
+}
